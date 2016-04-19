@@ -22,3 +22,6 @@
 [submodule "vim/bundle/vim-c"]
 	path = vim/bundle/vim-c
 	url = https://github.com/vim-scripts/c.vim.git
+[submodule "vim/bundle/VimCompletesMe"]
+	path = vim/bundle/VimCompletesMe
+	url = git://github.com/ajh17/VimCompletesMe.git
