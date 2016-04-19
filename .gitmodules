@@ -28,3 +28,6 @@
 [submodule "vim/bundle/ctrlp.vim"]
 	path = vim/bundle/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "vim/bundle/cscope.vim"]
+	path = vim/bundle/cscope.vim
+	url = https://github.com/brookhong/cscope.vim
