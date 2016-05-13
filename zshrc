@@ -1,3 +1,6 @@
+# detect the platform
+source ~/.zsh/platform.zsh
+
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/bretschuring/.oh-my-zsh
 
