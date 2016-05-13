@@ -34,3 +34,6 @@
 [submodule "vim/bundle/vim-better-whitespace"]
 	path = vim/bundle/vim-better-whitespace
 	url = git://github.com/ntpeters/vim-better-whitespace.git
+[submodule "zsh/oh-my-zsh"]
+	path = zsh/oh-my-zsh
+	url = git://github.com/robbyrussell/oh-my-zsh.git

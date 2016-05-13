@@ -2,7 +2,7 @@
 source ~/.zsh/platform.zsh
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/bretschuring/.oh-my-zsh
+export ZSH=~/.zsh/oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
