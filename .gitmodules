@@ -31,3 +31,6 @@
 [submodule "vim/bundle/cscope.vim"]
 	path = vim/bundle/cscope.vim
 	url = https://github.com/brookhong/cscope.vim
+[submodule "vim/bundle/vim-better-whitespace"]
+	path = vim/bundle/vim-better-whitespace
+	url = git://github.com/ntpeters/vim-better-whitespace.git
