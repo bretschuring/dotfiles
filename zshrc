@@ -85,9 +85,15 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
-alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
-alias gvi='/Applications/MacVim.app/Contents/MacOS/Vim -g'
+if [[ "$PLATFORM" == 'OSX' ]]; then
+  alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
+  alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+  alias gvi='/Applications/MacVim.app/Contents/MacOS/Vim -g'
+elif [[ "$PLATFORM" == 'LINUX' ]]; then
+  alias vi='vim'
+  alias vim='vim'
+  alias gvi='vim -g'
+fi
 
 export NVM_DIR="${HOME}/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
