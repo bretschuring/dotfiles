@@ -11,6 +11,8 @@ set number
 nnoremap <leader>fa :call CscopeFindInteractive(expand('<cword>'))<CR>
 nnoremap <leader>l :call ToggleLocationList()<CR>
 
+imap jk <Esc>
+
 if has('gui_running')
   set background=light
 else
