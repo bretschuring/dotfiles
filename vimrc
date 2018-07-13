@@ -13,6 +13,12 @@ nnoremap <leader>l :call ToggleLocationList()<CR>
 
 imap jk <Esc>
 
+" navigation mappings
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
 if has('gui_running')
   set background=light
 else
