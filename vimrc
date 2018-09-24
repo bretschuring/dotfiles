@@ -26,3 +26,7 @@ else
 endif
 "colorscheme solarized
 
+" highligh yank support for older vim (< 8.0.1394)
+if !exists('##TextYankPost')
+  map y <Plug>(highlightedyank)
+endif
