@@ -95,6 +95,8 @@ elif [[ "$PLATFORM" == 'LINUX' ]]; then
   alias gvi='vim -g'
 fi
 
+source ~/.cargo/env
+
 export NVM_DIR="${HOME}/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
